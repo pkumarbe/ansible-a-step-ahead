@@ -35,4 +35,4 @@ The following patterns address one or more groups. Groups separated by a colon i
 
 ---
 - name: This sets up an httpd webserver
-  hosts: webservers:!{{excluded}}:&{{required}}
+  hosts: webservers:!{{excluded}}:&{{required}} 
